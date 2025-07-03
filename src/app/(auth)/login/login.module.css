@@ -35,14 +35,11 @@
   outline: none;
 }
 
-.buttonWrapper {
-  margin-top: 20px;
-}
-
 .button {
   width: 100%;
   background: #4f46e5;
   color: #fff;
+  margin-top: 20px;
   font-size: 18px;
   border: none;
   border-radius: 8px;
@@ -68,6 +65,7 @@
   text-decoration: none;
   transition: text-decoration 0.2s;
 }
+
 .signupLink:hover {
   text-decoration: underline;
 }

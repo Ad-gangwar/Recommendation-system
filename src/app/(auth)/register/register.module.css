@@ -36,10 +36,6 @@
   transition: border-color 0.2s;
 }
 
-.buttonWrapper {
-  margin-top: 20px;
-}
-
 .button {
   width: 100%;
   background: #4f46e5;
@@ -50,6 +46,7 @@
   padding: 15px 0;
   cursor: pointer;
   transition: background 0.2s;
+  margin-top: 20px;
 }
 
 .button:hover {

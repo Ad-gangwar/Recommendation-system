@@ -3,12 +3,20 @@
   background: #4f46e5;
   color: #fff;
   padding: 18px 0;
-  text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
   font-size: 22px;
   font-weight: 700;
-  letter-spacing: 1px;
+  margin-left: 32px;
+}
+
+.header > div:last-child {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
 }
